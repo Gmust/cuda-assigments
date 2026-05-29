@@ -1,0 +1,18 @@
+# ninja log v6
+74	7857	8015219927924495	external/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	e8ffbf220208e66f
+20	8533	8015219927367950	external/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	4b6595bb1b5074a7
+36	12190	8015219927564922	CMakeFiles/cuda-webcam-filter.dir/src/utils/input_handler.cpp.obj	bf77ab32d1a48521
+55	12355	8015219927744887	CMakeFiles/cuda-webcam-filter.dir/src/input_args_parser/input_args_parser.cpp.obj	3d263db2a8221b80
+46	10919	8015219927671162	CMakeFiles/cuda-webcam-filter.dir/src/utils/filter_utils.cpp.obj	d899a6563dfedd04
+62	30215	8015219927806115	CMakeFiles/cuda-webcam-filter.dir/src/kernels/convolution_kernels.cu.obj	76af0dc986b774bb
+8809	16144	8015220017412760	external/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	4e9420970b272831
+13	19723	8015219927319336	external/gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	8b0068c90453c50d
+8069	17506	8015220010261942	external/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	a39b3c30f5f64791
+19805	20143	8015220126007009	lib/gmock.lib	e84830d1e25c7d38
+25	20195	8015219927429727	external/gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	7d4188a6f8ad5feb
+68	20297	8015219927869908	external/gtest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	d05f03093d398b4d
+20195	20325	8015220129129900	lib/gtest.lib	db033909eaeb22c3
+20326	20426	8015220130437572	lib/gtest_main.lib	12fae1c7a198d227
+20298	20451	8015220130158057	lib/gmock_main.lib	683e69889f9649fa
+49	4223	8015221834183278	CMakeFiles/cuda-webcam-filter.dir/src/main.cpp.obj	f506654ea22cb4cc
+4224	4478	8015221875926522	cuda-webcam-filter.exe	a3efe50532243a6b

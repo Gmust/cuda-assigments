@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/cxxopts/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/cxxopts/include/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/plog/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/gtest/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/gtest/googlemock/cmake_install.cmake",
+		"E:/cuda/course-accelerating-apps-nvidia-cuda/assigments/hdr-tone-mapping/cuda-webcam-filter/build/external/gtest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
