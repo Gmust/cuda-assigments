@@ -1,2 +1,15 @@
 .claude
 *.exe
+*.ppm
+*.nsys-rep
+*.sqlite
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# vendored dependencies and build output
+hdr-tone-mapping/cuda-webcam-filter/build
+hdr-tone-mapping/cuda-webcam-filter/external
+filter-pipeline/cuda-webcam-filter/build
+filter-pipeline/cuda-webcam-filter/external
