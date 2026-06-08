@@ -40,14 +40,14 @@ static const float kGaussian5Sep[5] = {
     1/17.f, 4/17.f, 7/17.f, 4/17.f, 1/17.f
 };
 
-#define CHECK_CUDA(call)                                                     
-    do {                                                                     
-        cudaError_t _e = (call);                                             
-        if (_e != cudaSuccess) {                                             
-            fprintf(stderr, "CUDA Error: %s  at %s:%d\n",                    
-                    cudaGetErrorString(_e), __FILE__, __LINE__);             
-            exit(EXIT_FAILURE);                                              
-        }                                                                    
+#define CHECK_CUDA(call)                                                      \
+    do {                                                                      \
+        cudaError_t _e = (call);                                              \
+        if (_e != cudaSuccess) {                                              \
+            fprintf(stderr, "CUDA Error: %s  at %s:%d\n",                    \
+                    cudaGetErrorString(_e), __FILE__, __LINE__);              \
+            exit(EXIT_FAILURE);                                               \
+        }                                                                     \
     } while (0)
 
 typedef struct { unsigned char *data; int width, height, channels; } Image;

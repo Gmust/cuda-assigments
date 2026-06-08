@@ -7,14 +7,14 @@
 namespace cuda_filter
 {
 
-#define CHECK_CUDA_ERROR(call)                                                          \
-    {                                                                                   \
-        cudaError_t err = call;                                                         \
-        if (err != cudaSuccess)                                                         \
-        {                                                                               \
-            PLOG_ERROR << "CUDA error in " << #call << ": " << cudaGetErrorString(err); \
-            return;                                                                     \
-        }                                                                               \
+#define CHECK_CUDA_ERROR(call)                                                          
+    {                                                                                   
+        cudaError_t err = call;                                                         
+        if (err != cudaSuccess)                                                         
+        {                                                                               
+            PLOG_ERROR << "CUDA error in " << #call << ": " << cudaGetErrorString(err); 
+            return;                                                                     
+        }                                                                               
     }
 
     __global__ void convolutionKernel(const unsigned char *input, unsigned char *output,
@@ -436,4 +436,4 @@ void applyHDRFilterCPU(const cv::Mat &input, cv::Mat &output, const HdrOptions &
     }
 }
 
-} // namespace cuda_filter
+} 
